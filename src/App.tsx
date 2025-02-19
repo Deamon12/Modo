@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Volume2, Bluetooth, Battery, Award } from 'lucide-react';
+import { ArrowRight, Volume2, Bluetooth, Bell } from 'lucide-react';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       {/* Hero Section */}
       <nav className="fixed w-full p-6 bg-white/80 backdrop-blur-md z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold tracking-tight">modo</h1>
+        <h1 className="text-2xl font-bold tracking-tight font-aqua">modo</h1>
           <button className="px-6 py-2 bg-black text-white rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors">
             Pre-order now <ArrowRight className="w-4 h-4" />
           </button>
@@ -20,11 +20,11 @@ function App() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
-                <h2 className="text-6xl font-bold leading-tight">Experience Pure Sound Excellence</h2>
-                <p className="text-xl text-gray-600">Immerse yourself in crystal-clear audio with our premium wireless headphones, crafted for the ultimate listening experience.</p>
+                <h2 className="text-6xl font-bold leading-tight">Smart Pills, Smarter Living</h2>
+                <p className="text-xl text-gray-600">Your daily routine, reimagined. Track, dispense, and optimize your health with our portable smart pill device.</p>
                 <div className="flex gap-4">
                   <button className="px-8 py-3 bg-black text-white rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors">
-                    Learn more <ArrowRight className="w-4 h-4" />
+                  Join the Future of Wellness <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
               </div>
@@ -45,24 +45,28 @@ function App() {
             <div className="grid md:grid-cols-3 gap-12">
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
-                  <Volume2 className="w-6 h-6 text-white" />
+                  <ArrowRight className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold">High-Fidelity Audio</h3>
-                <p className="text-gray-600">Experience studio-quality sound with our advanced audio technology.</p>
+                <h3 className="text-xl font-semibold">On-the-Go Convenience</h3>
+                {/* <p className="text-gray-600">Never forget a dose again, modo syncs with your lifestyle.</p> */}
+                <p className="text-gray-600">
+                  Your health shouldn’t slow you down, <span className="font-aqua">modo</span> keeps you on track wherever life takes you.
+                </p>
+
               </div>
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
                   <Bluetooth className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold">Seamless Connectivity</h3>
-                <p className="text-gray-600">Instant pairing with all your devices through Bluetooth 5.0.</p>
+                <h3 className="text-xl font-semibold">Smart App Integration</h3>
+                <p className="text-gray-600">Never forget a dose again, <span className="font-aqua">modo</span> syncs with your lifestyle and mobile device.</p>
               </div>
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
-                  <Battery className="w-6 h-6 text-white" />
+                  <Bell className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold">40h Battery Life</h3>
-                <p className="text-gray-600">All-day listening with quick charging capabilities.</p>
+                <h3 className="text-xl font-semibold">Automated Dispensing</h3>
+                <p className="text-gray-600">Right pill at the right time, no guessing.</p>
               </div>
             </div>
           </div>
@@ -81,23 +85,23 @@ function App() {
               </div>
               <div className="space-y-8 order-1 lg:order-2">
                 <div className="flex items-center gap-2">
-                  <Award className="w-6 h-6" />
-                  <span className="text-sm font-medium">Award-winning design</span>
+                  {/* <Award className="w-6 h-6" /> */}
+                  {/* <span className="text-sm font-medium">Smart design</span> */}
                 </div>
                 <h2 className="text-4xl font-bold leading-tight">Crafted for Perfection</h2>
-                <p className="text-xl text-gray-600">Premium materials combined with ergonomic design ensure comfort during extended listening sessions.</p>
+                <p className="text-xl text-gray-600"><span className="font-aqua">modo</span> ensures precision, convenience, and peace of mind—all in the palm of your hand.</p>
                 <ul className="space-y-4 text-gray-600">
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-black rounded-full"></div>
-                    Aerospace-grade aluminum
+                    Portable & Discreet
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-black rounded-full"></div>
-                    Memory foam cushioning
+                    Intelligent Reminders
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-black rounded-full"></div>
-                    Custom 40mm drivers
+                    Real-time Tracking 
                   </li>
                 </ul>
               </div>
