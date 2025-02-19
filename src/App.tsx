@@ -7,7 +7,7 @@ function App() {
       {/* Hero Section */}
       <nav className="fixed w-full p-6 bg-white/80 backdrop-blur-md z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold tracking-tight">SONIC</h1>
+          <h1 className="text-2xl font-bold tracking-tight">modo</h1>
           <button className="px-6 py-2 bg-black text-white rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors">
             Pre-order now <ArrowRight className="w-4 h-4" />
           </button>
