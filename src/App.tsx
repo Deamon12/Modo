@@ -118,7 +118,7 @@ function App() {
 
       <footer className="py-8 border-t">
         <div className="max-w-7xl mx-auto px-6 text-center text-gray-600">
-          <p>© 2025 SONIC. All rights reserved.</p>
+          <p>© 2025 modo. All rights reserved.</p>
         </div>
       </footer>
     </div>
