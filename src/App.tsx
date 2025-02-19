@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Volume2, Bluetooth, Bell } from 'lucide-react';
+import { ArrowRight, Bluetooth, Bell } from 'lucide-react';
 
 function App() {
   return (
@@ -30,8 +30,8 @@ function App() {
               </div>
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
-                  alt="Premium Headphones"
+                  src="/assets/pills.jpg"
+                  alt="Pills Falling"
                   className="w-full h-auto rounded-3xl shadow-2xl hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -78,8 +78,8 @@ function App() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1577174881658-0f30ed549adc?w=800&q=80"
-                  alt="Headphones Detail"
+                  src="/assets/palm.jpg"
+                  alt="Medication in Palm"
                   className="w-full h-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-500"
                 />
               </div>
