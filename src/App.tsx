@@ -8,9 +8,12 @@ function App() {
       <nav className="fixed w-full p-6 bg-white/80 backdrop-blur-md z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold tracking-tight font-aqua">modo</h1>
-          <button className="px-6 py-2 bg-black text-white rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors">
-            Pre-order now <ArrowRight className="w-4 h-4" />
-          </button>
+        <button
+            onClick={() => window.open("https://forms.gle/XnefkX9eVapEwqN69", "_blank", "noopener,noreferrer")}
+            className="px-6 py-2 bg-black text-white rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors"
+          >
+            Sign Up <ArrowRight className="w-4 h-4" />
+            </button>
         </div>
       </nav>
 
@@ -23,9 +26,12 @@ function App() {
                 <h2 className="text-6xl font-bold leading-tight">Smart Pills, Smarter Living</h2>
                 <p className="text-xl text-gray-600">Your daily routine, reimagined. Track, dispense, and optimize your health with our portable smart pill device.</p>
                 <div className="flex gap-4">
-                  <button className="px-8 py-3 bg-black text-white rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors">
-                  Join the Future of Wellness <ArrowRight className="w-4 h-4" />
-                  </button>
+                <button
+                  onClick={() => window.open("https://forms.gle/XnefkX9eVapEwqN69", "_blank", "noopener,noreferrer")}
+                  className="px-8 py-3 bg-black text-white rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors"
+                >
+                  Learn more <ArrowRight className="w-4 h-4" />
+                </button>
                 </div>
               </div>
               <div className="relative">
@@ -113,8 +119,11 @@ function App() {
         <section className="py-20 bg-black text-white">
           <div className="max-w-7xl mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold mb-8">Ready to Experience?</h2>
-            <button className="px-8 py-3 bg-white text-black rounded-full flex items-center gap-2 hover:bg-gray-100 transition-colors mx-auto">
-              Pre-order now <ArrowRight className="w-4 h-4" />
+            <button
+              onClick={() => window.open("https://forms.gle/XnefkX9eVapEwqN69", "_blank", "noopener,noreferrer")}
+              className="px-8 py-3 bg-white text-black rounded-full flex items-center gap-2 hover:bg-gray-100 transition-colors mx-auto"
+            >
+              SIgn Up <ArrowRight className="w-4 h-4" />
             </button>
           </div>
         </section>
